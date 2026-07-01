@@ -1,15 +1,18 @@
-# Python-AI-Chatbot
+# Python AI Voice Assistant
 
-A voice-controlled Python assistant (Jarvis) that listens for spoken commands and responds using text-to-speech.
+## Overview
+
+Python AI Voice Assistant is a desktop voice-controlled assistant developed using Python. It leverages speech recognition and text-to-speech technologies to execute voice commands such as telling the current time and date, searching Google and YouTube, and responding to basic conversational queries.
 
 ## Features
 
-- Tells the current time
-- Tells the current date
-- Says its name when asked
-- Searches Google for a spoken topic
-- Searches YouTube for a spoken topic
-- Exits when told to "exit"
+- Voice command recognition
+- Text-to-speech responses
+- Current time retrieval
+- Current date retrieval
+- Google search integration
+- YouTube search integration
+- Voice-triggered application exit
 
 ## Project Structure
 
@@ -48,18 +51,42 @@ Python-AI-Chatbot/
    python src/main.py
    ```
 
+## Technologies Used
+
+- Python
+- SpeechRecognition
+- pyttsx3
+- PyAudio
+- Webbrowser
+- Datetime
+
 ## Usage
 
 Once running, speak commands such as:
-- "your name"
-- "time" or "clock"
-- "date" or "today"
-- "search web"
-- "search youtube"
-- "exit"
+> What time is it?
+
+> Tell me today's date
+
+> Search Google for Python tutorials
+
+> Search YouTube for machine learning
+
+> Exit
+
 
 ## Requirements
 
-- Python 3.x
-- A working microphone
-- Internet connection (uses Google Speech Recognition)
+- Python 3.10+
+- Microphone
+- Internet Connection
+- Windows/macOS/Linux
+
+
+## Future Improvements
+
+- Natural Language Processing(NLP)
+- Integration with Large Language Models (LLMs)
+- Smart home device control
+- Weather information
+- Calendar integration
+- Desktop application interface
